@@ -21,6 +21,7 @@ namespace EmployeeManagement.Migrations
                 {
                     table.PrimaryKey("PK_Employees", x => x.Id);
                 });
+            //
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
